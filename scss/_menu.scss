@@ -1,0 +1,40 @@
+#boton-menu{
+    display: none;
+}
+
+label{
+    font-size: $titulo1;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+
+    ul{
+        display: none;
+        background{
+            color: $extra;
+        }
+    }
+}
+
+a{
+    display: block;
+    padding: 15px 20px;
+    color: $color_primario;
+    text-decoration: none;
+
+    &:hover{
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    span{
+        margin-left: 10px;
+    }
+}
+
+li:hover ul{
+    display: block;
+    position: absolute;
+}

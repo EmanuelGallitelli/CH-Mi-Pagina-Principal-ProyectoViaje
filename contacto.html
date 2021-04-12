@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Viaja cómodamente sólo buscando el destino, nosotros nos encargamos de todos los detalles.">
+    <meta name="keywords" content="VIAJE, Viaje, Viajar, VOLAR, Vacaciones, ESCAPADA, Destinos, TURISMO, TRAVEL, Trip, Travel, FLY, Vacation, GETAWAY, Destinations, TOURISM">
+	<title>Contacto</title>
+	<link rel="icon" href="css/img/OIP.jfif">
+    <link rel="stylesheet" href="scss/estilos.css">
+    <link rel="stylesheet" href="scss/fontello.css">
+</head>
+<body>
+    <header>
+		<h1 class="icon-flight">Proyecto Viaje</h1>
+		<input type="checkbox" id="boton-menu">
+		<label for="boton-menu" class="icon-menu" ></label>
+		<nav class="menu">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li class="submenu"><a href="destinos.html">Destinos <span class="icon-down-open"></span></a>
+					<ul>
+						<li><a href="error404.html">Inviero</a></li>
+						<li><a href="error404.html">Primavera</a></li>
+						<li><a href="error404.html">Verano</a></li>
+						<li><a href="error404.html">Otoño</a></li>
+					</ul>
+				</li>    
+				<li><a href="promociones.html">Promociones</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+</header>
+
+<section class="registro">
+	<h2><u>Formulario de Inscripción</u></h2>
+	<form>
+			<label for="nombre">Ingrese su nombre completo:</label><br>
+			<input class="controls"	type="text"placeholder = "Escriba aqui" value = ""required>
+
+			<label for="nombre">Ingrese su apellido:</label><br>
+			<input class="controls"	type="text"placeholder = "Escriba aqui" value = ""required>
+			
+			<label for="correo">Ingrese su email:</label><br>
+			<input class="controls"	type="email"placeholder = "Escriba aqui" value = ""required>
+
+			<label for="pass">Ingrese su clave:</label><br>
+			<input class="controls"	type="password"placeholder = "Escriba aqui" value = ""required>
+
+			<label for="pass">Repita su clave:</label><br>
+			<input class="controls"	type="password"placeholder = "Escriba aqui" value = ""required>
+
+				<select class="controls" name="soltero/a" size="1">
+					<option value="xx">Estado civil...</option>
+					<option> Soltero/a</option>
+					<option> Casado/a</option>
+					<option> Divorciado/a</option>
+					<option> Viudo/a</option>				
+				</select>
+
+				<select class="controls" name="Pais" size="1">
+					<option value="xx">Elija un pais...</option>
+				<optgroup label="América">
+					<option> Argentina</option>
+					<option> Uruguay</option>
+					<option> Brasil</option>
+					<option> México</option>
+					<option> Colombia</option>
+				</optgroup>
+				<optgroup label="Europa">
+					<option> España</option>
+					<option> Italia</option>
+					<option> Inglaterra</option>
+					<option> Francia</option>
+					<option> Alemania</option>
+				</optgroup>
+				</select><br>
+
+			<label><input type="checkbox" id="cbox1" value="first_checkbox"> Desea recibir el Newsletter?</label><br>
+			<br>
+			<label for="mensaje">Ingrese su consulta:</label><br>
+			<textarea class="controls" name="mensaje" id="" cols="50" rows="6" minlength="50" maxlength="200"></textarea><br>
+			<input class="controls" type="number" value="1" min="0" max="5">
+			<input class="botons" type="submit" value="Enviar Formulario">
+			<input class="botons" type="reset" value="Limpiar Formulario">
+			<hr>
+	</form>
+</section>
+<br>
+<footer><center>Nos dedicamos a que conozcas el mundo.</center></footer>
+</body>
+</html>
