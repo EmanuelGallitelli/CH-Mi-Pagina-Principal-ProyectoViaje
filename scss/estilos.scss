@@ -22,24 +22,6 @@ $extra: nth($list1,1);
     background-position: center;
 }
 
-/*Bucle*/
-
-@for $i from 1 through 6 {
-    h#{$i}{
-        font-size: $i *2em;
-    }
-}
-
-$i: 10;
-@while $i > 0 {
-    .item-#{i}{
-        width: 100px * $i;
-    }
-
-    $i: $i - 2;
-}
-
-
 /*Mi Proyecto*/
 
 * { 
