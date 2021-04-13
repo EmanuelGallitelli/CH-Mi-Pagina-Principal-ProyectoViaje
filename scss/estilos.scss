@@ -4,6 +4,9 @@
 /*Variables*/
 
 $titulo1: 26px;
+$color_primario: white;
+$color_secundario: rgb(255, 230, 0);
+$color_terciario: rgb(250, 153, 26);
 
 $lista1: #555, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5);
 
@@ -35,15 +38,6 @@ $i: 10;
 
     $i: $i - 2;
 }
-
-
-/*Mapas*/
-
-$colores: (
-    $color_primario: white,
-    $color_secundario: rgb(255, 230, 0),
-    $color_terciario: rgb(250, 153, 26),
-)
 
 
 /*Mi Proyecto*/
